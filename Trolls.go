@@ -28,7 +28,7 @@ type Troll struct {
 
 // By declaring a String() function on type Troll, Troll implicitly implements the Stringer interface
 func (t *Troll) String() string {
-	return fmt.Sprintf("%d > t=%d  p=%d\n", t.idNumber, t.gold, t.position)
+	return fmt.Sprintf("Troll %d > gold=%d  pos=%d\n", t.idNumber, t.gold, t.position)
 }
 
 func (t *Troll) move(s []*Troll) {

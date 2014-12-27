@@ -2,7 +2,8 @@ TreasureTrolls
 ==============
 
 Treasure-Stealing Trolls
-John Sloan
+
+Author: John Sloan
 
 This program runs a simulation of trolls stealing treasure from each other. The user is asked 
 for a number of trolls, n, and then the simulation generates n trolls, numbered 0 to n-1. 
